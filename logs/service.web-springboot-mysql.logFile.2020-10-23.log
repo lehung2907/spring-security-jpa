@@ -1,0 +1,468 @@
+2020-10-23 01:10:11,436 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 12344 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:10:11,436 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 12344 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:10:11,437 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:10:11,437 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:10:14,581 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:10:14,581 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:10:14,917 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 3.724 seconds (JVM running for 4.258)
+2020-10-23 01:10:14,917 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 3.724 seconds (JVM running for 4.258)
+2020-10-23 01:10:34,942 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 12344 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:10:34,942 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 12344 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:10:34,943 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:10:34,943 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:10:35,392 WARN  [restartedMain] AnnotationConfigServletWebServerApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+2020-10-23 01:10:35,392 WARN  [restartedMain] AnnotationConfigServletWebServerApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+2020-10-23 01:10:35,404 ERROR [restartedMain] SpringApplication: Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:729)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:470)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.spingboot.SpringSecurityJpaApplication.main(SpringSecurityJpaApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:815)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:721)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 39 common frames omitted
+Caused by: java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.util.Assert.state(Assert.java:94)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:224)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:176)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:43)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 40 common frames omitted
+2020-10-23 01:10:35,404 ERROR [restartedMain] SpringApplication: Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:729)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:470)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.spingboot.SpringSecurityJpaApplication.main(SpringSecurityJpaApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:815)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:721)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 39 common frames omitted
+Caused by: java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.util.Assert.state(Assert.java:94)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:224)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:176)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:43)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 40 common frames omitted
+2020-10-23 01:12:09,490 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 13892 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:12:09,490 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 13892 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:12:09,491 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:12:09,491 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:12:10,856 WARN  [restartedMain] AnnotationConfigServletWebServerApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+2020-10-23 01:12:10,856 WARN  [restartedMain] AnnotationConfigServletWebServerApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+2020-10-23 01:12:10,875 ERROR [restartedMain] SpringApplication: Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:729)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:470)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.spingboot.SpringSecurityJpaApplication.main(SpringSecurityJpaApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:815)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:721)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 39 common frames omitted
+Caused by: java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.util.Assert.state(Assert.java:94)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:224)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:176)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:43)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 40 common frames omitted
+2020-10-23 01:12:10,875 ERROR [restartedMain] SpringApplication: Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:729)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:470)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.spingboot.SpringSecurityJpaApplication.main(SpringSecurityJpaApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:815)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:721)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 39 common frames omitted
+Caused by: java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.util.Assert.state(Assert.java:94)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:224)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:176)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:43)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 40 common frames omitted
+2020-10-23 01:13:25,956 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 25004 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:13:25,956 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 25004 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:13:25,958 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:13:25,958 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:13:29,123 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:13:29,123 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:13:29,463 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 3.735 seconds (JVM running for 4.263)
+2020-10-23 01:13:29,463 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 3.735 seconds (JVM running for 4.263)
+2020-10-23 01:15:13,936 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 25004 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:15:13,936 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 25004 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:15:13,937 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:15:13,937 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:15:14,712 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:15:14,712 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:15:14,833 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 0.931 seconds (JVM running for 109.632)
+2020-10-23 01:15:14,833 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 0.931 seconds (JVM running for 109.632)
+2020-10-23 01:15:27,930 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 26432 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:15:27,930 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 26432 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:15:27,931 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:15:27,931 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:15:30,833 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:15:30,833 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:15:31,152 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 3.446 seconds (JVM running for 3.977)
+2020-10-23 01:15:31,152 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 3.446 seconds (JVM running for 3.977)
+2020-10-23 01:17:20,599 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 26432 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:17:20,599 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 26432 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:17:20,600 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:17:20,600 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:17:21,072 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:17:21,072 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:17:21,197 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 0.635 seconds (JVM running for 114.021)
+2020-10-23 01:17:21,197 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 0.635 seconds (JVM running for 114.021)
+2020-10-23 01:17:38,170 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 26432 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:17:38,170 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 26432 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:17:38,170 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:17:38,170 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:17:38,622 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:17:38,622 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:17:38,728 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 0.588 seconds (JVM running for 131.553)
+2020-10-23 01:17:38,728 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 0.588 seconds (JVM running for 131.553)
+2020-10-23 01:17:49,683 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 26432 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:17:49,683 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 26432 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:17:49,684 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:17:49,684 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:17:50,110 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:17:50,110 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:17:50,215 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 0.563 seconds (JVM running for 143.04)
+2020-10-23 01:17:50,215 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 0.563 seconds (JVM running for 143.04)
+2020-10-23 01:18:18,289 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 26432 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:18:18,289 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 26432 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:18:18,289 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:18:18,289 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:18:18,703 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:18:18,703 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:18:18,801 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 0.54 seconds (JVM running for 171.626)
+2020-10-23 01:18:18,801 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 0.54 seconds (JVM running for 171.626)
+2020-10-23 01:18:53,884 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 26432 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:18:53,884 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 26432 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:18:53,885 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:18:53,885 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:18:54,331 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:18:54,331 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:18:54,429 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 0.576 seconds (JVM running for 207.253)
+2020-10-23 01:18:54,429 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 0.576 seconds (JVM running for 207.253)
+2020-10-23 01:19:03,273 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 26432 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:19:03,273 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 26432 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:19:03,273 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:19:03,273 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:19:03,710 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:19:03,710 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:19:03,811 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 0.566 seconds (JVM running for 216.635)
+2020-10-23 01:19:03,811 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 0.566 seconds (JVM running for 216.635)
+2020-10-23 01:19:57,387 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 26432 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:19:57,387 INFO  [restartedMain] SpringSecurityJpaApplication: Starting SpringSecurityJpaApplication on DESKTOP-286SRLM with PID 26432 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:19:57,388 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:19:57,388 INFO  [restartedMain] SpringSecurityJpaApplication: No active profile set, falling back to default profiles: default
+2020-10-23 01:19:57,818 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:19:57,818 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:19:57,918 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 0.562 seconds (JVM running for 270.743)
+2020-10-23 01:19:57,918 INFO  [restartedMain] SpringSecurityJpaApplication: Started SpringSecurityJpaApplication in 0.562 seconds (JVM running for 270.743)
+2020-10-23 01:20:46,713 INFO  [restartedMain] Application: Starting Application on DESKTOP-286SRLM with PID 20748 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:20:46,713 INFO  [restartedMain] Application: Starting Application on DESKTOP-286SRLM with PID 20748 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:20:46,714 INFO  [restartedMain] Application: No active profile set, falling back to default profiles: default
+2020-10-23 01:20:46,714 INFO  [restartedMain] Application: No active profile set, falling back to default profiles: default
+2020-10-23 01:20:49,562 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:20:49,562 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:20:49,820 WARN  [restartedMain] OptionalLiveReloadServer: Unable to start LiveReload server
+2020-10-23 01:20:49,820 WARN  [restartedMain] OptionalLiveReloadServer: Unable to start LiveReload server
+2020-10-23 01:20:49,863 ERROR [restartedMain] StandardService: Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.spingboot.Application.main(Application.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 18 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 19 common frames omitted
+2020-10-23 01:20:49,863 ERROR [restartedMain] StandardService: Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.spingboot.Application.main(Application.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 18 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 19 common frames omitted
+2020-10-23 01:20:49,876 ERROR [restartedMain] LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2020-10-23 01:20:49,876 ERROR [restartedMain] LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2020-10-23 01:21:04,432 INFO  [restartedMain] Application: Starting Application on DESKTOP-286SRLM with PID 18416 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:21:04,432 INFO  [restartedMain] Application: Starting Application on DESKTOP-286SRLM with PID 18416 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:21:04,433 INFO  [restartedMain] Application: No active profile set, falling back to default profiles: default
+2020-10-23 01:21:04,433 INFO  [restartedMain] Application: No active profile set, falling back to default profiles: default
+2020-10-23 01:21:07,240 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:21:07,240 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:21:07,558 INFO  [restartedMain] Application: Started Application in 3.359 seconds (JVM running for 3.893)
+2020-10-23 01:21:07,558 INFO  [restartedMain] Application: Started Application in 3.359 seconds (JVM running for 3.893)
+2020-10-23 01:28:25,427 INFO  [restartedMain] Application: Starting Application on DESKTOP-286SRLM with PID 4136 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:28:25,427 INFO  [restartedMain] Application: Starting Application on DESKTOP-286SRLM with PID 4136 (C:\Users\HungLe\eclipse-workspace\spring-security-jpa\target\classes started by HungLe in C:\Users\HungLe\eclipse-workspace\spring-security-jpa)
+2020-10-23 01:28:25,428 INFO  [restartedMain] Application: No active profile set, falling back to default profiles: default
+2020-10-23 01:28:25,428 INFO  [restartedMain] Application: No active profile set, falling back to default profiles: default
+2020-10-23 01:28:28,284 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:28:28,284 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-23 01:28:28,598 INFO  [restartedMain] Application: Started Application in 3.401 seconds (JVM running for 3.944)
+2020-10-23 01:28:28,598 INFO  [restartedMain] Application: Started Application in 3.401 seconds (JVM running for 3.944)
